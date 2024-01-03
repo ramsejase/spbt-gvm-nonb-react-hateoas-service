@@ -1,0 +1,14 @@
+
+spring:
+  main.web-application-type: reactive
+  hateoas.use-hal-as-default-json-media-type: false
+  jackson.default-property-inclusion: NON_ABSENT
+  
+server:
+  servlet:
+    context-path: /reactive
+
+report:
+  population: WPP2022_Demographic_Indicators_OtherVariants.csv
+
+
